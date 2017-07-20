@@ -25,6 +25,6 @@ while(classtime):
               #picks a new name
               current = random.choice(names)
               redo = False
-        else:
-            #if it picks the same name twice, pick a new name
-            current = random.choice(names)
+             else:
+                 #if it picks the same name twice, pick a new name
+                 current = random.choice(names)
