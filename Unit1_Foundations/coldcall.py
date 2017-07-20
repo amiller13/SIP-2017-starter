@@ -17,7 +17,7 @@ while(classtime):
     if(input()== "a"):
         redo = True
         #checks to make sure a new name is being picked
-        while(redo)
+        while(redo):
             if(current != previous):
               print(current)
               #sets the name printed to the prvious name
