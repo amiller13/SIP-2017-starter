@@ -15,13 +15,16 @@ classtime = True
 
 while(classtime):
     if(input()== "a"):
+        redo = True
         #checks to make sure a new name is being picked
-        if(current != previous):
-            print(current)
-            #sets the name printed to the prvious name
-            previous = current
-            #picks a new name
-            current = random.choice(names)
+        while(redo)
+            if(current != previous):
+              print(current)
+              #sets the name printed to the prvious name
+              previous = current
+              #picks a new name
+              current = random.choice(names)
+              redo = False
         else:
             #if it picks the same name twice, pick a new name
             current = random.choice(names)
